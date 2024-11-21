@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>After School Lessons</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.16/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <h2>Lesson Booking</h2>
+         <div class="sort options">
+            <div>
+                <label>Sort By:</label>
+                <select v-model="sortKey">
+                <option value="Subject">Subject</option>
+                <option value="Location">Location</option>
+                <option value="Price">Price</option>
+                <option value="Spaces">Spaces</option>
+                </select>
+            </div>
+
+    </div>
+    
+</body>
+</html>
